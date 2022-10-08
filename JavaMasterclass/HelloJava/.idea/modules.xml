@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Variables/Bus/Bus.iml" filepath="$PROJECT_DIR$/Variables/Bus/Bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloJava.iml" filepath="$PROJECT_DIR$/HelloJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/JoiningStrings/JoiningStrings.iml" filepath="$PROJECT_DIR$/Variables/JoiningStrings/JoiningStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
       <module fileurl="file://$PROJECT_DIR$/YourInitials/YourInitials.iml" filepath="$PROJECT_DIR$/YourInitials/YourInitials.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/workbook2.1/workbook2.1.iml" filepath="$PROJECT_DIR$/Variables/workbook2.1/workbook2.1.iml" />
