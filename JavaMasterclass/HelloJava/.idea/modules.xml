@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloJava.iml" filepath="$PROJECT_DIR$/HelloJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
       <module fileurl="file://$PROJECT_DIR$/YourInitials/YourInitials.iml" filepath="$PROJECT_DIR$/YourInitials/YourInitials.iml" />
       <module fileurl="file://$PROJECT_DIR$/workbook_1.1/workbook_1.1.iml" filepath="$PROJECT_DIR$/workbook_1.1/workbook_1.1.iml" />
     </modules>
