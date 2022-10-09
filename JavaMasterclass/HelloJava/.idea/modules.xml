@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Variables/Bus/Bus.iml" filepath="$PROJECT_DIR$/Variables/Bus/Bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/Decimals/Decimals.iml" filepath="$PROJECT_DIR$/Variables/Decimals/Decimals.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloJava.iml" filepath="$PROJECT_DIR$/HelloJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/JoiningStrings/JoiningStrings.iml" filepath="$PROJECT_DIR$/Variables/JoiningStrings/JoiningStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
