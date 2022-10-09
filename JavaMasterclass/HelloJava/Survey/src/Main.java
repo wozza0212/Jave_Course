@@ -9,5 +9,6 @@ public class Main {
         System.out.println("How much do you spend on climbing gear?");
         double spendClimb = scan.nextDouble();
         System.out.println("Your name is " + name + " and you spend £" + spendClimb + " on climbing gear!");
+        scan.close();
     }
 }
