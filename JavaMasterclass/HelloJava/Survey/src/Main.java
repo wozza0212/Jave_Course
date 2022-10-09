@@ -14,7 +14,7 @@ public class Main {
         System.out.println("How much do you spend on food each week?");
         questionCounter++;
         int spendFood = scan.nextInt();
-        System.out.println("Your name is " + name + ", you spend £" + spendFood + "on food each week, and you spend £" + spendClimb + " on climbing gear each month!");
+        System.out.println("Your name is " + name + ", you spend £" + spendFood + "on food each week, \n and you spend £" + spendClimb + " on climbing gear each month!");
         System.out.println("Thankyou for answering all " + questionCounter + " Questions");
         scan.close();
     }
