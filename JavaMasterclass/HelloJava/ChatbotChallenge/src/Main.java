@@ -9,6 +9,8 @@ public class Main {
         System.out.println("\n");
         System.out.println("Hi " + name + "! I'm Javabot. Where are you from?");
         String home = scan.nextLine();
+
+
         System.out.println("\n");
         System.out.println("\n");
         System.out.println("I hear it's beautiful at " + home + "! I'm from a place called Oracle");
