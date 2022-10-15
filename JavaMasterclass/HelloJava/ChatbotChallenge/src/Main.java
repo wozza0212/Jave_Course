@@ -24,7 +24,7 @@ public class Main {
         String language = scan.nextLine();
 
         System.out.println("\n");
-        System.out.println("xvxv" + language + ", that's great! Nice chatting with you " + name + ". I have to log off now. See ya!");
+        System.out.println(language + ", that's great! Nice chatting with you " + name + ". I have to log off now. See ya!");
 
 
 
