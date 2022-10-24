@@ -20,7 +20,6 @@ public class Main {
 
         return celsius;
 
-
     }
 
     public static void printTemperatures(double fahrenheit, double celsius) {
