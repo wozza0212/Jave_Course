@@ -13,9 +13,6 @@ public class Main {
         printTemperatures(noon, midCelsius);
 
         //Task 3 - Call the printTemperatures function.
-
-
-
     }
 
 
