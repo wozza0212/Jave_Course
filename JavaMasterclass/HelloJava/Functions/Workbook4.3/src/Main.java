@@ -4,8 +4,13 @@ public class Main {
         double evening = 61;       //temperature during the evening in fahrenheit
         double midnight = 55;      //temperature at midnight in fahrenheit
 
-        double celsius = fahrenheitToCelsius(noon);
-        printTemperatures(noon, celsius);
+        double noonCelsius = fahrenheitToCelsius(noon);
+        double eveCelsius = fahrenheitToCelsius(evening);
+        double midCelsius = fahrenheitToCelsius(midnight);
+
+        printTemperatures(noon, noonCelsius);
+        printTemperatures(noon, eveCelsius);
+        printTemperatures(noon, midCelsius);
 
         //Task 3 - Call the printTemperatures function.
 
