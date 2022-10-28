@@ -14,26 +14,15 @@ public class Main {
         //Task 1: See if the user wants to play.
         String isPlaying = scan.nextLine();
 
-    /*Task 2: Set up the game
 
-
-       • if the answer is yes:
-             – print: Great!
-             – print: rock – paper – scissors, shoot!
-             – pick up user's choice.
-             – get the computer choice (can only be done after task 3).
-             – get the result (can only be done after task 4)
-             – print everything (can only be done after task 5).
-
-       • else:
-             – print: Darn, some other time...!
-    */
         if (isPlaying.equals("yes")) {
             System.out.println("Great");
             System.out.println("Rock - Paper - Scissors, shoot");
             String usersChoice = scan.nextLine();
             String CompPick = computerChoice();
-            System.out.println(result(usersChoice, CompPick));
+            String Result = result(usersChoice, CompPick);
+            System.out.println(Result);
+            printResult(usersChoice, CompPick, Result);
 
 
         }
@@ -72,46 +61,16 @@ public class Main {
         }
         return pick;
     }
-
-
-
-    //Task 4  – Write a function that compares the choices and returns the result.
-
-    /**
-     * Function name: result - It returns the result of the game.
-     *  @param yourChoice (String)
-     *  @param computerChoice (String)
-     *  @return result (String)
-
-     * Inside the function:
-     *   1. result is "You win" if:
-     *
-     *       You: "rock"      Computer: "scissors"
-     *       You: "paper"     Computer: "rock"
-     *       You: "scissors"  Computer: "paper"
-     *
-     *   2. result is "You lose" if:
-     *
-     *       Computer: "rock"      You: "scissors"
-     *       Computer: "paper"     You: "rock"
-     *       Computer: "scissors"  You: "paper"
-     *
-     *   3. result is "It's a tie" if:
-     *
-     *       your choice equals computer choice.
-     *
-     */
-
     public static String result(String yourChoice, String computerChoice) {
         String result = "";
         if (yourChoice.equals(computerChoice)) {
             result = "Its a tie!";
-        } else if ((yourChoice.equals("rock") && computerChoice.equals("paper")) ||
+        } else if ((yourChoice.equals("rock") && computerChoice.equals("scissors")) ||
                 (yourChoice.equals("paper") && computerChoice.equals("scissors")) ||
                 (yourChoice.equals("scissors") && computerChoice.equals("paper"))) {
             result = "Congratulations, You win";
-        } else if ((computerChoice.equals("rock") && yourChoice.equals("paper")) ||
-                (computerChoice.equals("paper") && yourChoice.equals("scissors")) ||
+        } else if ((computerChoice.equals("rock") && yourChoice.equals("scissors")) ||
+                (computerChoice.equals("paper") && yourChoice.equals("rock")) ||
                 (computerChoice.equals("scissors") && yourChoice.equals("paper"))) {
             result = "Unlucky, it looks like you lose!";
         } else {
@@ -120,6 +79,12 @@ public class Main {
 
 
         return result;
+    }
+    public static void printResult(String yourChoice, String computerChoice, String result) {
+        System.out.println("You chose: " + yourChoice);
+        System.out.println("Computer choice: " + computerChoice);
+        System.out.println("Result: " + result);
+
     }
 
     //Task 5  – Write a function that prints your choice, the computer's, and the result.
