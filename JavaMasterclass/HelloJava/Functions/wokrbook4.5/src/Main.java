@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 
 import java.util.Random;
 public class Main {
 
 
-=======
-public class Main {
->>>>>>> 266d3e0755cb1a7c45172e70e66aa68b615430f9
     public static void main(String[] args) {
         System.out.println("Thank you for using the area calculator");
         System.out.println("This calculator lets you get the area of: ");
