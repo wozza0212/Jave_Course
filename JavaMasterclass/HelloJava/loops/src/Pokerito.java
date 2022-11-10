@@ -5,8 +5,8 @@ public class Pokerito {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Let's play Pokerito. Type anything when you're ready.");
-        String ready = scan.nextLine();
-        if (!ready.equals("")) {
+        String rules = scan.nextLine();
+        if (!rules.equals("")) {
             System.out.println("It's like Poker, but a lot simpler.");
             System.out.println("- There are two players, you and the computer.");
             System.out.println("- The dealer will give each player one card.");
@@ -14,6 +14,69 @@ public class Pokerito {
             System.out.println("- The player with the most river matches wins!");
             System.out.println("- If the matches are equal, everyone's a winner!");
             System.out.println("- Ready? Type anything if you are.");
+            scan.nextLine();
+            while (true) {
+                String playerCard = returnCard();
+                String dealerCard = returnCard();
+                System.out.println("This is your card!");
+                System.out.println(playerCard);
+                System.out.println("\nThis is the dealers card!");
+                System.out.println(dealerCard);
+                System.out.println("\nThe dealer will now draw 5 cards");
+
+                String card1 = returnCard();
+                String card2 = returnCard();
+                String card3 = returnCard();
+                String card4 = returnCard();
+                String card5 = returnCard();
+
+                System.out.println("The dealer will now draw 5 more cards!");
+                System.out.print("1." + card1);
+                System.out.print("2." + card2);
+                System.out.print("3." + card3);
+                System.out.print("4." + card4);
+                System.out.print("5." + card5);
+
+                int playerScore = 0;
+                int dealerScore = 0;
+
+                if (playerCard.equals(card1)) {
+                    playerScore += 1;}
+                if (playerCard.equals(card2)) {
+                    playerScore +=1;}
+                if (playerCard.equals(card3)) {
+                    playerScore += 1;}
+                if (playerCard.equals(card4)) {
+                    playerScore +=1;}
+                if (playerCard.equals(card5)) {
+                    playerScore +=1;
+                }
+
+                if (dealerCard.equals(card1)) {
+                    dealerScore += 1;}
+                if (dealerCard.equals(card2)) {
+                    dealerScore +=1;}
+                if (dealerCard.equals(card3)) {
+                    dealerScore += 1;}
+                if (dealerCard.equals(card4)) {
+                    dealerScore +=1;}
+                if (dealerCard.equals(card5)) {
+                    dealerScore +=1;}
+
+
+                System.out.println("You have " + playerScore + " matches!");
+                System.out.println("The dealer has " + dealerScore + " matches");
+                if (playerScore > dealerScore) {
+                    System.out.println("Congratulation, you have won this time!");
+                } else if (dealerScore > playerScore) {
+                    System.out.println("Dealer wins!");
+                } else {
+                    System.out.println("It's a Tie!");
+                }
+                break;
+
+
+            }
         } else {
             System.out.println("See you next time!");
         }

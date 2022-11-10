@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f6ad5e7-8b01-4a9c-adcf-16a92798fef2" name="Changes" comment="Adding pokerito class">
-      <change afterPath="$PROJECT_DIR$/JavaMasterclass/HelloJava/loops/src/Pokerito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaMasterclass/HelloJava/loops/src/doubles5_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaMasterclass/HelloJava/loops/src/javaRolls5_11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaMasterclass/HelloJava/loops/doubles5_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaMasterclass/HelloJava/loops/src/Pokerito.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaMasterclass/HelloJava/loops/src/Pokerito.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668076173338</updated>
       <workItem from="1668076174743" duration="42000" />
-      <workItem from="1668076727565" duration="11098000" />
+      <workItem from="1668076727565" duration="13408000" />
     </task>
     <task id="LOCAL-00001" summary="Adding pokerito class">
       <created>1668078242503</created>
