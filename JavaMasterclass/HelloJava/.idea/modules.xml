@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlackjackComplete/BlackjackComplete.iml" filepath="$PROJECT_DIR$/BlackjackComplete/BlackjackComplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variables/Bus/Bus.iml" filepath="$PROJECT_DIR$/Variables/Bus/Bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/Functions/Challenge4.0/Challenge4.0.iml" filepath="$PROJECT_DIR$/Functions/Challenge4.0/Challenge4.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChatbotChallenge/ChatbotChallenge.iml" filepath="$PROJECT_DIR$/ChatbotChallenge/ChatbotChallenge.iml" />
